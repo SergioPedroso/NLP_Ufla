@@ -18,3 +18,14 @@ I'll go through the following steps:
 - Inspired by: [Text Classification using LSTM, Bi-LSTM, and GRU](https://nzlul.medium.com/the-classification-of-text-messages-using-lstm-bi-lstm-and-gru-f79b207f90ad)
 - Keras documentation on RNN layers: https://keras.io/api/layers/recurrent_layers/
 - TensorFlow RNN guide: https://www.tensorflow.org/guide/keras/working_with_rnns
+
+
+### Dataset
+
+Base de dados de mensagens SMS de celulares, publicamente disponível na UCL datasets (https://archive.ics.uci.edu/dataset/228/sms+spam+collection). Pode também ser baixada de https://raw.githubusercontent.com/kenneth-lee-ch/SMS-Spam-Classification/master/spam.csv<br>
+O dataset contém 5.574 mensagens rotuladas como *spam* ou não *spam* (*ham*).
+
+A biblioteca Pandas foi usada para ler e manipular o dataset.
+
+
+![image](https://github.com/user-attachments/assets/cc6ecaf6-f311-47f3-9f17-9c8deebeb405)
